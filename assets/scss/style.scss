@@ -1,0 +1,19 @@
+/*!
+Theme Name: Finara
+Author: Irshman
+Description: Theme for test task
+Version: 1.0.0
+Requires PHP: 8.0
+Text Domain: finara
+ */
+
+@use 'base/null';
+@use 'base/global';
+@use 'base/ui-kit';
+
+@use 'layout/header';
+@use 'layout/form';
+
+@use 'blocks/hero-block';
+@use 'blocks/how-works';
+

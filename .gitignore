@@ -1,0 +1,9 @@
+/vendor
+/node_modules
+/.idea
+/**/.DS_Store
+/assets/js/script.min.js
+/assets/js/script.min.js.map
+/assets/css/style.min.css
+/assets/css/style.min.css.map
+/*.zip

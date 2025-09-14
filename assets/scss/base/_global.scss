@@ -1,0 +1,48 @@
+@use './mixins' as *;
+@use './variables' as *;
+
+body {
+	font-family: $font-content-family;
+	height: 100%;
+	overflow-x: hidden;
+	background-color: $bgColor;
+	@include hide-scrollbar();
+
+
+	&.active {
+		overflow: hidden;
+	}
+}
+
+main#primary {
+	min-height: 420px;
+}
+
+img {
+	height: auto;
+	max-width: 100%;
+	object-fit: contain;
+}
+
+
+.container {
+	max-width: rem($containerWidth);
+	padding: 0 rem(6);
+	box-sizing: content-box;
+	margin: 0 auto;
+}
+
+.site {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	height: 100%;
+
+	main {
+		flex: 1 0 auto;
+	}
+
+	footer {
+		flex: 0 0 auto;
+	}
+}

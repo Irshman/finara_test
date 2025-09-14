@@ -1,0 +1,15 @@
+{
+    "name": "thm/finara",
+    "autoload": {
+        "psr-4": {
+            "Thm\\Finara\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Irshman",
+            "email": "zhenyaskvortsov9@gmail.com"
+        }
+    ],
+    "require": {}
+}
