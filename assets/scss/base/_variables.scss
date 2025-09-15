@@ -19,11 +19,28 @@ $mobileSmall: em(479.98);
 
 $bgColor: #f9f8fe;
 $accentColor: #ee2264;
+$whiteColor: #fff;
+$blackColor: #000;
 
 $headerBgColor: #fff; //f9f8fe
 $headerBurgerColor: #000;
 $headerBorderRadius: rem(27);
 $headerBoxShadow: 0px 8px 14px 0px rgba(38, 38, 38, 0.07);
 $headerColor: rgb(56, 56, 54);
+$headerLightGrey: rgb(247, 246, 254);
+$headerMenuColor: #383836;
 
-$heroBlockColor: #000;
+$heroBlockColor: rgb(56, 56, 54);
+$heroBlockButtonBorderColor: rgb(56, 56, 54);
+
+$formBoxShadow: 0px 0px 40px 0px rgba(123, 123, 123, 0.15);
+$formBorderColor: rgb(247, 246, 254);
+$formPlaceholderColor: #6e6e6e;
+$formDropdownColor: #6e6e6e;
+$formCheckboxColor: #3c3c3c;
+
+$howWorksColorTitle: #323232;
+$howWorksColorDescription: #a9a9aa;
+$howWorksColorStepTitle: #b6b6ba;
+$howWorksColorStepDescription: #a9a9aa;
+$howWorksSquadBgColor: #f7f6fe;

@@ -2,7 +2,7 @@
 @use '../base/variables' as *;
 
 .how-works {
-    background-color: #fff;
+    background-color: $whiteColor;
     padding: rem(60) rem(15);
 
     &__advantages {
@@ -47,7 +47,7 @@
     }
 
     &__item {
-        color: #383836;
+        color: $headerMenuColor;
         display: flex;
         align-items: center;
         column-gap: rem(10);
@@ -67,7 +67,7 @@
 .content {
     &__title {
         font-size: rem(30);
-        color: #323232;
+        color: $howWorksColorTitle;
         text-align: center;
 
         &:not(:last-child) {
@@ -76,7 +76,7 @@
     }
 
     &__description {
-        color: #a9a9aa;
+        color: $howWorksColorDescription;
         font-size: rem(14);
         font-weight: lighter;
         text-align: center;
@@ -103,7 +103,7 @@
 
     details {
         padding: rem(20);
-        background: #fff;
+        background: $whiteColor;
         transition: all 0.3s ease;
         box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.06);
         border-radius: rem(7);
@@ -113,12 +113,12 @@
         border-color: $accentColor;
 
         summary {
-            color: #000;
+            color: $blackColor;
         }
     }
 
     summary {
-        color: #b6b6ba;
+        color: $howWorksColorStepTitle;
         font-size: rem(25);
         cursor: pointer;
         list-style: none; 
@@ -133,7 +133,7 @@
         margin-top: rem(15);
         font-size: rem(15);
         font-weight: lighter;
-        color: #a9a9aa;
+        color: $howWorksColorStepDescription;
     }
     }   
 
@@ -156,7 +156,7 @@
                 top: rem(-50);
                 right: rem(-80);
                 border-radius: rem(15);
-                background-color: #f7f6fe;
+                background-color: $howWorksSquadBgColor;
                 width: rem(231);
                 height: rem(183);
                 z-index: 1;

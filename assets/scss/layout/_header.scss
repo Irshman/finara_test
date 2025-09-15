@@ -47,7 +47,7 @@
             transform: translateY(-0%);
             height: rem(43);
             width: rem(1);
-            background-color: rgb(247, 246, 254);
+            background-color: $headerLightGrey;
         }
     }
 
@@ -98,7 +98,7 @@
 }
 
 .menu-h {
-  background: #fff;
+  background-color: $whiteColor;
   display: flex;
   position: absolute;
   left: 0;
@@ -153,21 +153,21 @@
     .menu {
       flex-direction: row;
       column-gap: rem(10);
-      color: #383836;
+      color: $headerMenuColor;
       font-size: rem(12);
 
       .menu-item {
         position: relative;
 
         &:hover {
-          color: #000;
+          color: $blackColor;
         }
       }
 
       .sub-menu {
         display: none;
         border-radius: rem(10);
-        background-color: #fff;
+        background-color: $whiteColor;
         padding: rem(15);
         position: absolute;
         top: rem(30);

@@ -7,8 +7,8 @@
   <div class="form__input">
       <input type="email" name="email" placeholder="Indtast mail" autocomplete="email" required>
   </div>
-  <div class="form__input">
-      <input type="number" name="cvr" placeholder="CVR" autocomplete="cvr">
+  <div class="form__input cvr">
+      <input type="number" name="cvr" placeholder="CVR">
   </div>
 </div>
 <div class="form__wrap">
@@ -44,5 +44,5 @@
     </div>
   </details>
 
-  <button class="form__submit" type="submit">Indhent tilbud</button>
+  <button class="form__submit btn" type="submit">Indhent tilbud</button>
 </form>
