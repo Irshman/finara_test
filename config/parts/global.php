@@ -1,5 +1,5 @@
 <?php
-use ESC\Luna\ThemeFunctions;
+use Thm\Finara\ThemeFunctions;
 
 new \Kirki\Panel(
     'theme_settings',
