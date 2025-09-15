@@ -123,6 +123,20 @@
     .current-menu-item {
       color: $accentColor;
     }
+
+    .menu-item-has-children {
+      position: relative;
+
+      & > a::after {
+          content: "›";
+          position: absolute;
+          top: 0;
+          right: 0;
+          font-size: rem(31);
+          transform: rotate(90deg);
+          display: inline-block;
+        }
+    }
   }
 }
 
@@ -186,6 +200,10 @@
           height: 30px;
         }
 
+        & > a::after {
+          right: rem(-20);
+          font-size: rem(14);
+        }
 
         &:hover {
           & .sub-menu {
@@ -193,6 +211,7 @@
           }
         }
       }
+
     }
   }
 }
